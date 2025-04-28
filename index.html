@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista Interativa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    input, button {
+      padding: 8px;
+      margin: 5px 0;
+      font-size: 16px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    li button {
+      margin-left: 10px;
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 4px 8px;
+      cursor: pointer;
+    }
+
+    #limparTudoBtn {
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Minha Lista</h2>
+
+  <ul id="lista"></ul>
+
+  <input type="text" id="itemInput" placeholder="Novo item" />
+  <br>
+  <button id="adicionarBtn">Adicionar</button>
+  <button id="limparTudoBtn">Limpar Tudo</button>
+
+  <!-- Linka o script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
